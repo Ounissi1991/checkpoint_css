@@ -1,0 +1,161 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.list {
+  display: flex;
+  list-style-type: none;
+}
+.docplaner-header {
+  display: flex;
+  justify-content: space-around;
+}
+.header-menu ul li{
+  margin-left: 20px;
+}
+a {
+  text-decoration: none;
+  color: #ABABAB;
+}
+.active {
+  color: #54B59C;
+}
+.header-menu ul a:hover {
+  color: #54B59C;
+}
+/*section1 */
+#logoo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60px;
+  height: 60px;
+}
+.lead-logo h1 {
+  display: flex;
+  justify-content: center;
+  color: #00B39B;
+  margin-top: 1cm;
+}
+.sec1p p {
+  margin: 60px 0;
+  line-height: 1.7;
+  font-weight: 400;
+  font-size: 17px;
+  color: #747474;
+}
+.sec1p {
+  display: flex;
+  margin-left: 10px;
+}
+/*section2*/
+.section2{
+  display:flex;
+ justify-content:space-around;
+    height: 600px;
+    margin: 70px 245px 20px 245px;
+    width: 66.66%;
+}
+.patients{
+  background-color:#00ccb1;
+  border-radius:11px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  width:24.5%;
+  padding:3.5%;
+  margin-right:20px;
+}
+.patients h2{
+  color:white;
+}
+.patients h1{
+  font-family:'Times New Roman',Times, serif;
+   color:white;
+}
+.selec select{
+  border:0;
+  text-decoration:underline;
+  color:white;
+  background:transparent;
+  font-size:19px;
+  padding:3%;
+}
+.selec select option{
+  color:black;
+}
+.doctors{
+  background-color:#3d83df;
+  border-radius:11px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  width:24.5%;
+  padding:3.5%;
+    margin-right:20px;
+}
+.clinics{
+   background-color:#1b2734;
+  border-radius:11px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  width:24.5%;
+  padding:3.5%;
+}
+.section2 h1 {
+  color:white;
+}
+.section2 h2{
+  color:white;
+}
+
+
+
+
+
+
+
+/*section4*/
+
+.offices__header {
+  margin: 0 auto 4.1875rem;
+  font-size: .875em;
+  text-align: center;}
+.offices__slider .office {
+  width: 33.33%;
+  float: left;}
+button{
+  background-color: rgb(127, 193, 255);
+  border-radius: 10px;
+}
+h1 {
+  font-size: 2.125rem;
+  color: #00B39B;}
+.offices__header p{
+      font-size: 40px;
+  }
+button:hover{
+  background-color:green;
+}
+.join h1{
+  color: black;
+  text-align: center;
+  font-weight: normal;
+  font-size: 30;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
